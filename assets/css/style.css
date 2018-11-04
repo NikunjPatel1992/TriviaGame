@@ -1,0 +1,120 @@
+body{
+    
+    background-image: url("../images/bg22.jpeg");
+    /* background-color: blue; */
+    height: 100%;
+   width: 100%;
+    /* background-repeat: no-repeat; */
+}
+/*==== header tottaly trivial trivia */
+.header{
+    background-color: #ffffff;
+    opacity: 0.8;
+    padding-top: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    height: 100px;
+    width: 60%;
+    font-size: 80px;
+}
+
+
+/* === timmer ==== */
+.timmer{
+    font-size: 40px;
+}
+/* ====question answer timmer box ===*/
+.questionbox{
+    background-color: #ffffff;
+    opacity: 0.8;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+
+/* === question option===== */
+.questionopt{
+    margin-top: 30px;
+}
+
+
+h1{
+    text-align: center;
+}
+.question{
+    text-align: center;
+}
+
+.time{
+    background-color: #d8b2b2;
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    width: 35%;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+
+}
+
+#screen {
+    
+    background-color: #ffffff;
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    width: 35%;
+    margin: 0 auto;
+    margin-top: 15%;
+    border-radius: 5px;
+}
+
+
+#answerScreen {
+    display: none;
+    
+    background-color: #ffffff;
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    width: 40%;
+    margin-top: 20px;
+    margin: 0 auto;
+    padding: 2%;
+    margin-top: 15%;
+    font-size: 21px;
+    border-radius: 5px;
+}
+#timesup{
+    display: none;
+    
+    background-color: #ffffff;
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    width: 40%;
+    margin: 0 auto;
+    padding: 2%;
+    margin-top: 15%;
+    font-size: 21px;
+    border-radius: 5px;
+}
+
+
+/* box property */
+.box2 {
+    margin: 0 auto;
+    text-align: center;
+    padding: 5%;
+}
+#startbtn,
+#submit{
+    opacity: 0.8;
+}
+#submit{
+    align-content: center;
+}
+
+
+#startbtn:hover{
+	background-color: #2528be;
+	color: white;
+	padding: 10px;
+}

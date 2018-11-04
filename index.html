@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Trivial Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- link to css -->
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+
+    <!--Link to bootstrap file-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+
+    <!--Link to jquary file-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 header">
+                    <h1>Totally Trivial Trivia</h1>
+                </div>
+            </div>
+
+            <div id="screen">
+                <div class="box2">
+                    <h3>You Have 60 Seconds for</h3>
+                    <h3>Mathematics Question</h3>
+
+                    <br />
+                    <h3>Click To Start</h3>
+                    <button type="button" id="startbtn" class="btn btn-primary">start game</button>
+                </div>
+            </div>
+
+
+            <div class="questionbox">
+                <div class="time">
+                    <div class="timmer text-center"></div>
+                </div>
+                <div class="question"> </div>
+                <div class="option"> </div>
+                <div class="col-md-12 text-center">
+                    <button type=" button" id="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+            <div id="answerScreen">
+                <div class="box2">
+                    <h2>Yore Result is Hear:</h2>
+
+                    <hr />
+                    <p id="correct">Correct Answers : </p>
+                    <p id="wrong">Wrong Answers: </p>
+                </div>
+            </div>
+            <div id="timesup">
+                <div class="box2">
+                    <h2 class="up">Times Up!</h2>
+                    <hr />
+                    <p> Youre Score is Here :</p>
+                    <p id="correcttimesup">Correct Answers: </p>
+                    <p id="wrongtimesup">Wrong Answers: </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- link to javascript -->
+    <script src="assets/javascript/app.js"></script>
+</body>
+
+</html>
